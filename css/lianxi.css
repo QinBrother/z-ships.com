@@ -1,0 +1,266 @@
+.top{
+	background-image: url(../img/lianxi_top.png);
+	-webkit-transition-duration: 0.4s;
+	-ms-transition-duration: 0.4s;
+}
+.head{
+	-webkit-transition-duration: 0.5s;
+	-ms-transition-duration: 0.5s;
+	-webkit-transition-timing-function: ease-in-out;
+	-ms-transition-timing-function: ease-in-out;
+	-ms-transition-delay: initial;
+	-webkit-transition-delay: initial;
+}
+.content{
+	height: auto;
+	padding-bottom: 20rem;
+	padding-top: 15rem;
+	text-align: center;
+	color: #FFFFFF;
+	transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	-ms-transition-duration: 0.4s;
+}
+.content a{
+	opacity: 0;
+	animation: fade-in 2s ease 0s 1;
+	-webkit-animation: fade-in 2s ease 0s 1;
+	-ms-animation: fade-in 2s ease 0s 1;
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	letter-spacing: .5rem;
+	font-size: 4.3rem;
+	line-height: 5rem;
+	font-weight: 0;
+}
+@keyframes fade-in{
+	0%{ opacity: 0;}
+	100%{opacity: 1;}
+}
+@-ms-keyframes fade-in{
+	0%{ opacity: 0;}
+	100%{opacity: 1;}
+}
+@-webkit-keyframes fade-in{
+	0%{ opacity: 0;}
+	100%{opacity: 1;}
+}
+.center{
+	width: 100%;
+	height: auto;
+}
+.center-top{
+	margin-top: 110px;
+	margin-left: 25%;
+	width: 75%;
+	height: 15rem;
+}
+.top-left{
+	width: 35%;
+	float: left;
+	height: 15rem;
+	border-right: solid #e5e5e5 2px;
+}
+.top-left h2{
+	font-weight: 200;
+	font-size: 24px;
+}
+.top-left img{
+	float: left;
+	margin-top: 40px;
+	margin-right: 10px;
+}
+.top-left p{
+	margin-top: 47px;
+	font-size: 18px;
+}
+.top-right{
+	width: 50%;
+	padding-left: 50%;
+}
+.top-right h2{
+	font-weight: 200;
+	font-size: 2rem;
+}
+.top-right img{
+	float: left;
+	margin-top: 40px;
+	margin-right: 10px;
+}
+.top-right p{
+	margin-top: 47px;
+	font-size: 18px;
+}
+.center-bottom{
+	margin-left: 25%;
+	width: 75%;
+	height: auto;
+	padding-bottom: 130px;
+}
+.bottom-left{
+	width: 35%;
+	float: left;
+	height: auto;
+	border-right: solid #e5e5e5 2px;
+}
+.bottom-left h2{
+	font-weight: 200;
+	font-size: 2rem;
+}
+.bottom-left img{
+	float: left;
+	margin-top: 40px;
+	margin-right: 10px;
+}
+.bottom-left p{
+	margin-top: 47px;
+	font-size: 18px;
+}
+.bottom-right{
+	padding-left: 50%;
+}
+.bottom-right h2{
+	font-weight: 200;
+	font-size: 2rem;
+}
+.bottom-right img{
+	float: left;
+	margin-top: 40px;
+	margin-right: 10px;
+}
+.map{
+	width: 100%;
+	height: 750px;
+}
+.bottom-right p{
+	margin-top: 47px;
+	font-size: 18px;
+}
+@media screen and (max-width: 1366px) {
+	.center{
+		width: 100%;
+		padding-bottom: 20rem;
+	}
+	.center-top{
+		width: 55%;
+		padding-left: 10%;
+		margin: 0 auto;
+		height: auto;
+	}
+	.top-left{
+		width:100% ;
+		clear: left;
+		height: auto;
+		margin: 0;
+		padding: 0;
+		border-right: 0px;
+		padding-top: 10rem;
+	}
+	.top-right{
+		width: 100%;
+		clear: left;
+		margin: 0;
+		padding: 0;
+		padding-top: 5rem;
+	}
+	.center-bottom{
+		width: 55%;
+		margin: 0 auto;
+		padding: 0;
+		padding-left: 10%;
+		height: auto;
+	}
+	.bottom-left{
+		width:100% ;
+		clear: left;
+		height: auto;
+		margin: 0;
+		padding: 0;
+		border-right: 0px;
+		padding-top: 5rem;
+	}
+	.bottom-right{
+		width: 100%;
+		clear: left;
+		margin: 0;
+		padding: 0;
+		padding-top: 5rem;
+	}
+}
+@media screen and (max-width: 1200px) {
+	.content a{
+		font-size: 4rem;
+	}
+}
+@media screen and (max-width: 900px) {
+	.content a{
+		font-size: 3.5rem;
+	}
+}
+@media screen and (max-width: 700px) {
+	.content{
+		height: auto;
+		padding-bottom: 15rem;
+	}
+	.content a{
+		line-height: 4rem;
+		font-size: 2.5rem;
+	}
+} 
+@media screen and (max-width:500px ) {
+	.content{
+		padding-top: 10rem;
+		padding-bottom: 10rem;
+	}
+	.content a{
+		line-height: 3rem;
+		font-size: 2rem;
+	}
+	.center-top{
+		width: 80%;
+	}
+	.top-left h2{
+		font-size: 1.5rem;
+	}
+	.top-left img{
+		width: 2rem;
+		height: auto;
+	}
+	.top-left p{
+		font-size: 0.1rem;
+	}
+	.top-right h2{
+		font-size: 1.5rem;
+	}
+	.top-right img{
+		width: 2rem;
+		height: auto;
+	}
+	.top-right p{
+		font-size: 0.1rem;
+	}
+	.center-bottom{
+		width: 80%;
+	}
+	.bottom-left h2{
+		font-size: 1.5rem;
+	}
+	.bottom-left img{
+		width: 2rem;
+		height: auto;
+	}
+	.bottom-left p{
+		font-size: 0.1rem;
+	}
+	.bottom-right h2{
+		font-size: 1.5rem;
+	}
+	.bottom-right img{
+		width: 2rem;
+		height: auto;
+	}
+	.bottom-right p{
+		font-size: 0.1rem;
+	}
+}

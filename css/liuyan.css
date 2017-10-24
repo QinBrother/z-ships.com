@@ -1,0 +1,250 @@
+.top{
+	background-image: url(../img/liuyan_top.png);
+	-webkit-transition-duration: 0.4s;
+	-ms-transition-duration: 0.4s;
+}
+.head{
+	-webkit-transition-duration: 0.5s;
+	-ms-transition-duration: 0.5s;
+	-webkit-transition-timing-function: ease-in-out;
+	-ms-transition-timing-function: ease-in-out;
+	-webkit-transition-delay: initial;
+	-ms-transition-delay: initial;
+}
+.content{
+	height: auto;
+	padding-bottom: 20rem;
+	padding-top: 15rem;
+	text-align: center;
+	color: #FFFFFF;
+	transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	-ms-transition-duration: 0.4s;
+}
+.content a{
+	opacity: 0;
+	animation: fade-in 2s ease 0s 1;
+	-webkit-animation: fade-in 2s ease 0s 1;
+	-ms-animation: fade-in 2s ease 0s 1;
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	letter-spacing: 14px;
+	font-size: 48px;
+	line-height: 5rem
+	font-weight: 0;
+}
+@keyframes fade-in{
+	0%{ opacity: 0;}
+	100%{opacity: 1;}
+}
+@-webkit-keyframes fade-in{
+	0%{ opacity: 0;}
+	100%{opacity: 1;}
+}
+@-ms-keyframes fade-in{
+	0%{ opacity: 0;}
+	100%{opacity: 1;}
+}
+.center{
+	height: 72rem;
+	width: 100%;
+	text-align: center;
+}
+.center p{
+	width: 100%;
+	height: 103px;
+	text-align: center;
+	padding-top: 67px;
+	letter-spacing: 5px;
+	font-size: 36px;
+	font-weight: 100;
+	background-color: #fafafa;
+	color: #1a1a1a;
+}
+.shuru{
+	width: 880px;
+	height: 480px;
+	margin: 0 auto;
+	margin-top: 40px;
+	padding-bottom: 30px;
+	border-bottom: 1px dashed #999999;
+	text-align: start;
+}
+.left{
+	width: 45%;
+	height: 150px;
+	float: left;
+}
+label{
+	font-size: 14px;
+	color: #1A1A1A;
+}
+#name{
+	width: 398px;
+	height: 36px;
+	border-radius: 3px;
+	outline: none;
+	border: 1px solid #999999;
+}
+#phone{
+	width: 398px;
+	height: 36px;
+	border-radius: 3px;
+	outline: none;
+	border: 1px solid #999999;
+}
+.right{
+	width: 45%;
+	float: right;
+}
+#work{
+	width: 398px;
+	height: 36px;
+	border-radius: 3px;
+	outline: none;
+	border: 1px solid #999999;
+}
+#email{
+	width: 398px;
+	height: 36px;
+	border-radius: 3px;
+	outline: none;
+	border: 1px solid #999999;
+}
+.below{
+	clear: both;
+	width: 100%;
+	height: 220px;
+}
+#words{
+	width: 860px;
+	padding: 10px;
+	height: 200px;
+	font-size: 14px;
+}
+dl{
+	padding-top: 1.2rem;	
+}
+dt{
+	margin-bottom: .8rem;
+}
+.tijiao{
+	margin-top: 60px;
+	text-align: center;
+}
+#tijiao{
+	width: 180px;
+	height: 50px;
+	border: 0px;
+	background-color: #0096FF;
+	letter-spacing: 6px;
+	font-size: 14px;
+	cursor: pointer;
+	color: white;
+	border-radius: 4px;
+	margin-bottom: 10px;
+}
+.tijiao p{
+	margin-top: 5px;
+	font-size: 14px;
+	color: #999999;
+	letter-spacing: 1px;
+}
+@media screen and (max-width: 1200px) {
+	.content a{
+		font-size: 4rem;
+	}
+}
+@media screen and (max-width: 900px) {
+	.content a{
+		font-size: 3.5rem;
+	}
+	.center{
+		height: auto;
+	}
+	.center p{
+		font-size: 2rem;
+	}
+	.shuru{
+		width: 60%;
+		height: auto;
+	}
+	.left{
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+	}
+	#name{
+		width: 100%;
+		height: 40px;
+		border-radius: 5px;
+	}
+	#phone{
+		width: 100%;
+		height: 40px;
+		border-radius: 5px;
+	}
+	.right{
+		width: 100%;
+		clear: right;
+	}
+	#work{
+		width: 100%;
+		height: 40px;
+		border-radius: 5px;
+	}
+	#email{
+		width: 100%;
+		height: 40px;
+		border-radius: 5px;
+	}
+	.below{
+		clear: both;
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+	}
+	#words{
+		width: 100%;
+		padding: 0;
+		height: 200px;
+	}
+	.tijiao{
+		margin-top: 100px;
+		text-align: center;
+	}
+	#tijiao{
+		width: 10rem;
+		height: 3rem;
+		border: 0px;
+		background-color: #0096FF;
+		letter-spacing: 6px;
+		font-size: 1rem;
+		cursor: pointer;
+		color: white;
+	}
+	.tijiao p{
+		font-size: 0.8rem;
+	}
+}
+@media screen and (max-width: 700px) {
+	.content{
+		height: auto;
+		padding-bottom: 15rem;
+	}
+	.content a{
+		line-height: 4rem;
+		font-size: 2.5rem;
+	}
+} 
+@media screen and (max-width:500px ) {
+	.content{
+		padding-top: 10rem;
+		padding-bottom: 10rem;
+	}
+	.content a{
+		line-height: 3rem;
+		font-size: 2rem;
+	}
+}

@@ -1,0 +1,100 @@
+.top{
+	background-image: url(../img/liuyan_top.png);
+	-webkit-transition-duration: 0.4s;
+	-ms-transition-duration: 0.4s;
+}
+.head{
+	-webkit-transition-duration: 0.5s;
+	-ms-transition-duration: 0.5s;
+	-webkit-transition-timing-function: ease-in-out;
+	-ms-transition-timing-function: ease-in-out;
+	-webkit-transition-delay: initial;
+	-ms-transition-delay: initial;
+}
+.content{
+	height: auto;
+	padding-bottom: 20rem;
+	padding-top: 15rem;
+	text-align: center;
+	color: #FFFFFF;
+	transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	-ms-transition-duration: 0.4s;
+}
+.content a{
+	opacity: 0;
+	animation: fade-in 2s ease 0s 1;
+	-ms-animation: fade-in 2s ease 0s 1;
+	-webkit-animation: fade-in 2s ease 0s 1;
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	letter-spacing: .5rem;
+	font-size: 4.3rem;
+	line-height: 5rem;
+	font-weight: 0;
+}
+@keyframes fade-in{
+	0%{ opacity: 0;}
+	100%{opacity: 1;}
+}
+@-webkit-keyframes fade-in{
+	0%{ opacity: 0;}
+	100%{opacity: 1;}
+}
+@-ms-keyframes fade-in{
+	0%{ opacity: 0;}
+	100%{opacity: 1;}
+}
+.center{
+	width: 100%;
+	text-align: center;
+	height: 440px;
+}
+.center img{
+	margin-top: 190px;
+	
+}
+.center p {
+	margin-top: 20px;
+	font-size: 36px;
+	color: #1a1a1a;
+}
+@media screen and (max-width: 1200px) {
+	.content a{
+		font-size: 4rem;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 900px) {
+	.content a{
+		font-size: 3.5rem;
+	}
+}
+@media screen and (max-width: 700px) {
+	.content{
+		height: auto;
+		padding-bottom: 15rem;
+	}
+	.content a{
+		line-height: 4rem;
+		font-size: 2.5rem;
+	}
+} 
+@media screen and (max-width:500px ) {
+	.content{
+		padding-top: 10rem;
+		padding-bottom: 10rem;
+	}
+	.content a{
+		line-height: 3rem;
+		font-size: 2rem;
+	}
+	.center{
+		height: 30rem;
+	}
+	.center p {
+		margin-top: 2rem;
+		font-size: 2rem;
+	}
+}
