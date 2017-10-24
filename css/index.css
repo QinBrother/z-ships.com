@@ -563,26 +563,33 @@
 	.sjaq-forth{
 		margin-top: 40px;
 	}
-	.rjdz-frist{
+	.rjdz-frist,
+	.rjdz-second,
+	.rjdz-thrid{
 		display: block;
 		text-align: center;
 		width: 100%;
 	}
-	.rjdz-frist-img{
+	.rjdz-frist-img,
+	.rjdz-second-img,
+	.rjdz-thrid-img{
 		margin: 0 auto;
 		clear: left;
 		text-align: center;
 		height: 150px;
 		width: 350px;
 	}
-	.rjdz-frist-content{
+	.rjdz-frist-content,
+	.rjdz-second-content,
+	.rjdz-thrid-content{
 		width: 350px;
 		margin: 0 auto;
 	}
 	.rjdz-frist-content-title,
+	.rjdz-second-content-title,
 	.rjdz-thrid-content-title{
 		margin-left: 0px;
-		margin-top: 20px;
+		padding-top: 50px;
 	}
 	.rjdz-frist-content-content,
 	.rjdz-thrid-content-content{
@@ -592,6 +599,14 @@
 	.rjdz-frist-content-img,
 	.rjdz-thrid-content-img{
 		margin-left: 0px;
+	}
+	.rjdz-second-content{
+		position: relative;
+		top: 175px;
+	}
+	.rjdz-second-img{
+		position: relative;
+		bottom: 175px;
 	}
 	.anli{
 		height: 40rem;
@@ -657,83 +672,6 @@
 	.content p{
 		line-height: 4rem;
 		font-size: 1.3rem;
-	}
-	.chuantong{
-		padding-top: 0;
-		padding-bottom: 3rem;
-	}
-	.zuo,
-	.zhong,
-	.you{
-		display: block;
-		padding-right: 0px;
-		padding-left: 0px;
-		border-right: 0px;
-	}
-	.zhanjian{
-		width: 100%;
-	}
-	.chengxin{
-		margin: 0 auto;
-		width: 80%;
-	}
-	.chengxin-img{
-		width: 100%;
-		height: auto;
-		clear: left;
-		padding: 0;
-	}
-	.chengxin-img img{
-		width: 100%;
-	}
-	.chengxin-shuoming{
-		width: 100%;
-		margin-top: 3rem;
-		padding-left: 0;
-	}
-	.xuhao{
-		font-size: 3.5rem;
-	}
-	.jianjie{
-		font-size: 2.3rem;
-	}
-	.shuoming{
-		font-size: 1.7rem;
-	}
-	.zhengti{
-		width: 80%;
-		margin: 0 auto;
-	}
-	.zhengti-shuoming{
-		width: 100%;
-		clear: left;
-		padding-left: 0;
-	}
-	.zhengti-img{
-		width: 100%;
-		clear: right;
-		padding-right: 0;
-	}
-	.zhengti-img img{
-		width: 100%;
-	}
-	.yonghu{
-		margin: 0 auto;
-		width: 80%;
-	}
-	.yonghu-img{
-		width: 100%;
-		clear: left;
-		padding-left: 0;
-	}
-	.yonghu-img img{
-		width: 100%;
-	}
-	.yonghu-shuoming{
-		width: 100%;
-		margin-top: 3rem;
-		padding-left: 0;
-		padding-bottom: 15rem;
 	}
 	.anli{
 		height: 40rem;
@@ -803,44 +741,60 @@
 	.center a{
 		font-size: 2.5rem;
 	}
-	.chuantong{
-		padding-top: 0;
-		padding-bottom: 0;
+	.shujuku a,
+	.shujuanquan a,
+	.ruanjiandingzhi a{
+		font-size: 23px;
+		font-weight: 400;
 	}
-	.chuantong li{
-		font-size: 1.5rem;
-		display: block;
-		letter-spacing: .5rem;
+	.sjk-bottom img{
+		width: 200px;
 	}
-	.zuo,
-	.zhong,
-	.you{
-		display: block;
-		padding-right: 0px;
-		padding-left: 0px;
-		border-right: 0px;
-		padding-bottom: 50px;
+	.sjk-bottom p{
+		font-size: 15px;
 	}
-	.zhanjian-title a{
-		font-size: 2.5rem;
+	.sjaq-content{
+		margin-bottom: 50px;
 	}
-	.chengxin{
-		padding-bottom: 15rem;
+	.rjdz-content{
+		width: 100%;
 	}
-	.zhengti{
-		padding-bottom: 15rem;
+	.rjdz-frist{
+		padding-bottom: 100px;
 	}
-	.yonghu{
-		padding-bottom: 30rem;
+	.rjdz-second{
+		padding-bottom: 100px;
 	}
-	.xuhao{
-		font-size: 3rem;
+	.rjdz-second-content{
+		top: 100px;
 	}
-	.jianjie{
-		font-size: 2rem;
+	.rjdz-thrid{
+		padding-bottom: 130px;
 	}
-	.shuoming{
-		font-size: 1rem;
+	.rjdz-frist-img,
+	.rjdz-second-img,
+	.rjdz-thrid-img{
+		width: 280px;
+	}
+	.rjdz-frist-content,
+	.rjdz-second-content,
+	.rjdz-thrid-content{
+		width: 280px;
+	}
+	.rjdz-frist-img img,
+	.rjdz-second-img img,
+	.rjdz-thrid-img img{
+		width: 280px;
+	}
+	.rjdz-frist-content-title,
+	.rjdz-second-content-title,
+	.rjdz-thrid-content-title{
+		font-size: 25px;
+	}
+	.rjdz-frist-content-content,
+	.rjdz-second-content-content,
+	.rjdz-thrid-content-content{
+		font-size: 15px;
 	}
 	.anli{
 		height: 30rem;
