@@ -71,29 +71,6 @@ a{
 .top li:nth-child(2)>.show{
 	display: none;
 }
-/*.top li:nth-child(2)>.show{
-	/*display: none;*/
-	/*opacity: 0;*/
-	/*transition-duration: all 0.4s;
-	-webkit-transition-duration: all 0.4s;
-	-ms-transition-duration: all 0.4s;
-	visibility: hidden;
-    opacity: 0
-	transition-timing-function: ease-in-out;
-	transition-delay: initial;
-}
-.top li:nth-child(2):hover .show{*/
-	/*display: block;*/
-	/*opacity: 1;*/
-	/*transition-duration: all 0.4s;
-	-webkit-transition-duration: all 0.4s;
-	-ms-transition-duration: all 0.4s;
-	visibility: visible;
-    opacity: 1;
-	transition-timing-function: ease-in-out;
-	transition-delay: initial;
-	
-}*/
 .top li:nth-child(2) .drop-down{
 	/*opacity: 0;*/
 	background-image: url(../img/tankuang.png);
@@ -133,6 +110,7 @@ a{
 .daohang li a{
 	padding-left: 40px;
 	text-decoration: none;
+	cursor: pointer;
 }
 
 .daohang li a:after{
@@ -446,6 +424,7 @@ a{
 	}
 	.top li:nth-child(2) .drop-down{
 		top:30px;
+		left:-2px;
 	}
 }
 @media screen and (max-width: 900px) {
@@ -494,7 +473,7 @@ a{
 		margin-top: 1rem;
 	}
 	.top li:nth-child(2) .drop-down{
-		left:-12%;
+		left:-13%;
 	}
 }
 @media screen and (max-width: 700px) {
@@ -536,6 +515,9 @@ a{
 	}
 	.erweima{
 		margin-top: 14rem;
+	}
+	.top li:nth-child(2) .drop-down{
+		left:-20%;
 	}
 } 
 @media screen and (max-width:500px ) {
