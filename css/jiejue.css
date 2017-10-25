@@ -238,7 +238,7 @@
 		width: 70%;
 	}
 }
-@media screen and (max-width: 1367px) {
+@media screen and (max-width: 1366px) {
 	.content ul li {
     padding-bottom: 7px;
 }
