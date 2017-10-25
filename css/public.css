@@ -99,7 +99,7 @@ a{
 	width:166px ;
 	height: 113px;
 	position:absolute;
-	left: 0%;
+	left: -5px;
 	top: 42px;
 	display: flex;
 	/*justify-content: center;*/
@@ -128,7 +128,7 @@ a{
 	margin-right: 10px;
 }
 .daohang li a{
-	padding-left: 30px;
+	padding-left: 40px;
 	text-decoration: none;
 }
 
@@ -138,7 +138,7 @@ a{
     height: 1.2rem;
     width: 2px;
     background-color: rgba(255,255,255,0.3);
-    margin-left: 30px;
+    margin-left: 40px;
 }
 .daohang li a:link,
 .daohang li a:visited{
@@ -156,8 +156,8 @@ a{
 	cursor: pointer;
 	margin-top: -5px;
 	letter-spacing: .3rem;
-	margin-left: 30px;
-	margin-right: 30px;
+	margin-left: 40px;
+	margin-right: 40px;
 	-webkit-appearance: none;
 	margin-bottom: -0.7rem;
 }
