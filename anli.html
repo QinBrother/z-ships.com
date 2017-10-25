@@ -5,10 +5,18 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>成功案例</title>
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 		<link rel="stylesheet" href="css/anli.css" />
 		<link rel="stylesheet" href="css/public.css" />
 	</head>
 	<body>
+		<script>
+			$(function(){
+				$('.daohang>li').eq(1).hover(function(){
+					$(".show").fadeToggle(400)
+				})
+			})
+		</script>
 		<div class="top">
 			<nav class="head">
 				<div class="logo">
@@ -16,7 +24,22 @@
 				</div>
 				<ul class="daohang">
 					<li><a href="index.html">首页</a></li>
-					<li><a href="jiejue.html">解决方案</a></li>
+					<li>
+						<a>解决方案</a>
+						<div class="show">
+							<div class="drop-down">
+								<div class="first" onclick="window.location.href='jiejue.html'">
+									<img src="img/zanfuwu-kaobei.png" />
+									<span>软件定制开发</span>
+								</div>
+								<div class="second">
+									<img src="img/shuju-yilanbiao.png" />
+									<span>数据运维</span>
+								</div>
+							</div>
+						</div>
+
+					</li>
 					<li><a href="anli.html" style="color: #0096FF;">成功案例</a></li>
 					<li><a href="jieshao.html">公司介绍</a></li>
 					<li><a href="lianxi.html">联系我们</a></li>
