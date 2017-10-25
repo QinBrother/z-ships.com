@@ -69,9 +69,12 @@ a{
 	position: relative;
 }
 .top li:nth-child(2)>.show{
+	display: none;
+}
+/*.top li:nth-child(2)>.show{
 	/*display: none;*/
 	/*opacity: 0;*/
-	transition-duration: all 0.4s;
+	/*transition-duration: all 0.4s;
 	-webkit-transition-duration: all 0.4s;
 	-ms-transition-duration: all 0.4s;
 	visibility: hidden;
@@ -79,10 +82,10 @@ a{
 	transition-timing-function: ease-in-out;
 	transition-delay: initial;
 }
-.top li:nth-child(2):hover .show{
+.top li:nth-child(2):hover .show{*/
 	/*display: block;*/
 	/*opacity: 1;*/
-	transition-duration: all 0.4s;
+	/*transition-duration: all 0.4s;
 	-webkit-transition-duration: all 0.4s;
 	-ms-transition-duration: all 0.4s;
 	visibility: visible;
@@ -90,7 +93,7 @@ a{
 	transition-timing-function: ease-in-out;
 	transition-delay: initial;
 	
-}
+}*/
 .top li:nth-child(2) .drop-down{
 	/*opacity: 0;*/
 	background-image: url(../img/tankuang.png);

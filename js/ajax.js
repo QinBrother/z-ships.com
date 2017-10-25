@@ -2,6 +2,11 @@
  * Created by Administrator on 2017/8/8.
  */
 $(function(){
+//	$('.daohang>li').eq(1).children('a').eq(0).hover(function(){
+//		$('.show').show(1000);
+//   alert("1")
+		 
+//	})
     $('#tijiao').click(function () {
         var name=$('#name').val();
         var phone=$('#phone').val();

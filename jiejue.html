@@ -5,10 +5,18 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>解决方案</title>
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script> 
 		<link rel="stylesheet" href="css/jiejue.css" />
 		<link rel="stylesheet" href="css/public.css" />
 	</head>
 	<body>
+		<script>
+			$(function(){
+				$('.daohang>li').eq(1).hover(function(){
+		        $(".show").fadeToggle(400)
+			})
+			})
+		</script>
 		<div class="top">
 			<nav class="head">
 				<div class="logo">
