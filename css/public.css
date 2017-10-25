@@ -9,12 +9,19 @@ html{
 	font-family:"微软雅黑";
 	font-size: 12px;
 }
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
 .top{
 	width: 100%;
-	height: 560px;
+	height: auto;
 	background-repeat:no-repeat;
 	background-size: 100% 100%;
 	transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
 }
 .head{
 	color: #FFFFFF;
@@ -51,10 +58,74 @@ html{
 	font-size: 20px;
 	font-weight: 550;
 	padding-bottom: 2rem;
+	/*margin-bottom: 2rem;*/
 }
 .daohang li:hover{
 	border-bottom:solid #0096FF;
 	
+}
+.daohang li:nth-child(2){
+	border-bottom: none;
+	position: relative;
+}
+.top li:nth-child(2)>.show{
+	/*display: none;*/
+	/*opacity: 0;*/
+	transition-duration: all 0.4s;
+	-webkit-transition-duration: all 0.4s;
+	-ms-transition-duration: all 0.4s;
+	visibility: hidden;
+    opacity: 0
+	transition-timing-function: ease-in-out;
+	transition-delay: initial;
+}
+.top li:nth-child(2):hover .show{
+	/*display: block;*/
+	/*opacity: 1;*/
+	transition-duration: all 0.4s;
+	-webkit-transition-duration: all 0.4s;
+	-ms-transition-duration: all 0.4s;
+	visibility: visible;
+    opacity: 1;
+	transition-timing-function: ease-in-out;
+	transition-delay: initial;
+	
+}
+.top li:nth-child(2) .drop-down{
+	/*opacity: 0;*/
+	background-image: url(../img/tankuang.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width:166px ;
+	height: 113px;
+	position:absolute;
+	left: 0%;
+	top: 42px;
+	display: flex;
+	/*justify-content: center;*/
+	/*align-items: center;*/
+	flex-direction: column;
+	
+}
+.top li:nth-child(2) .drop-down div{
+	padding-left: 20px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+.top li:nth-child(2) .drop-down div span{
+	font-size: 14px;
+	color: #1A1A1A;
+}
+.top li:nth-child(2) .drop-down div span:hover{
+	color: #0096FF;
+}
+.top li:nth-child(2) .drop-down .first{
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+.top li:nth-child(2) .drop-down div img{
+	margin-right: 10px;
 }
 .daohang li a{
 	padding-left: 30px;
@@ -95,17 +166,18 @@ html{
 	height: 6px;
 	background: #0096FF;
 	margin: 0 auto;
-	margin-top: 20px;
+	margin-top: 15px;
 }
 /*.daohang li input:hover{
 	background-color:rgba(0,0,0,0.00001);
 }*/
+
 .bottom{
 	animation: fade-in 2s ease 0s 1;
 	animation-fill-mode: forwards;
 	width: 100%;
 	height: 380px;
-	margin-top: 100px;
+	/*margin-top: 100px;*/
 	background-color: #394455;
 }
 .bottom-lianjie{
@@ -256,19 +328,41 @@ html{
 	letter-spacing: 0;
 	font-size: 14px;
 }
-@media screen and (max-width: 1366px) {
+@media only screen and (max-width: 1367px) {
 	.daohang li{
-		font-size:20px;
+		font-size: 1.3rem;
 	}
+	.top li:nth-child(2) .drop-down{
+		width: 120px;
+		height: 80px;
+	}
+	.top li:nth-child(2) .drop-down .first{
+    margin-top: 18px;
+    margin-bottom: 10px;
+    }
+    .top li:nth-child(2) .drop-down div {
+    padding-left: 10px;
+  
+    }
+    .top li:nth-child(2) .drop-down div img {
+    margin-right: 7px;
+    width: 20%;
+    }
+    .top li:nth-child(2) .drop-down div span {
+    font-size: 10px;
+    }
+    
+}
+@media only screen and (max-width:1365px) {
 	.logo{
 		width: 12rem;
 		margin-top: 1.5rem;
 	}
 	.daohang li a{
-		padding-left: 20px;
+		padding-left: 1.3rem;
 	}
 	.daohang li a:after{
-		margin-left: 20px;
+		margin-left: 1.3rem;
 	}
 	.lianjie li a{
 		padding-left: 30px;
@@ -310,6 +404,8 @@ html{
 	}
 	.daohang li{
 		font-size: 1.6rem;
+		padding-bottom: 0.5rem;
+		margin-bottom: 1.5rem;
 	}
 	.daohang li:hover{
 		border-bottom: none;
@@ -344,6 +440,9 @@ html{
 	.erweima{
 		width: 10rem;
 		margin-top: 13rem;
+	}
+	.top li:nth-child(2) .drop-down{
+		top:30px;
 	}
 }
 @media screen and (max-width: 900px) {
@@ -391,15 +490,19 @@ html{
 		margin-left: 0;
 		margin-top: 1rem;
 	}
+	.top li:nth-child(2) .drop-down{
+		left:-12%;
+	}
 }
 @media screen and (max-width: 700px) {
 	.logo{
 		width: 9rem;
 	}
-	.daohang li{
+	.daohang>li>a{
 		font-size: 1.3rem;
 		letter-spacing: .3rem;
 	}
+	
 	.daohang li a{
 		padding-left: 5px;
 		padding-right: 5px;
@@ -490,4 +593,14 @@ html{
 		font-size: 1rem;
 		letter-spacing: 0;
 	}
+	.top li:nth-child(2) .drop-down div img{
+		display: none;
+	}
+	.top li:nth-child(2) .drop-down {
+    width: 83px;
+    height: 70px;
+    }
+    .top li:nth-child(2) .drop-down div {
+    padding-left: 6px;
+    }
 }
