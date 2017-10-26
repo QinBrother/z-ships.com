@@ -326,22 +326,22 @@ a{
 		height: 85px;
 	}
 	.top li:nth-child(2) .drop-down .first{
-    margin-top: 18px;
-    margin-bottom: 10px;
+	    margin-top: 18px;
+	    margin-bottom: 10px;
     }
     .top li:nth-child(2) .drop-down div {
-    padding-left: 10px;
+    	padding-left: 10px;
   
     }
     .top li:nth-child(2) .drop-down div img {
-    margin-right: 7px;
-    width: 20%;
+	    margin-right: 7px;
+	    width: 20%;
     }
     .top li:nth-child(2) .drop-down div span {
-    font-size: 10px;
+    	font-size: 10px;
     }
     .erweima{
-	margin-top: 180px;
+		margin-top: 180px;
     }
 }
 @media screen and (max-width: 1200px) {
