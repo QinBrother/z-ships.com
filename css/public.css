@@ -289,7 +289,7 @@ a{
 	height: auto;
 	float: right;
 	margin-left: 90%;
-	margin-top: 130px;
+	margin-top: 180px;
 }
 .erweima img{
 	width: 100%;
@@ -340,7 +340,9 @@ a{
     .top li:nth-child(2) .drop-down div span {
     font-size: 10px;
     }
-    
+    .erweima{
+	margin-top: 180px;
+    }
 }
 @media screen and (max-width: 1200px) {
 	.head{
