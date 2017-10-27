@@ -79,8 +79,10 @@ a{
 	width:166px ;
 	height: 113px;
 	position:absolute;
+	/*float: left;*/
+	/*margin-top: 17px;*/
 	left: -5px;
-	top: 42px;
+	top: 17px;
 	display: flex;
 	/*justify-content: center;*/
 	/*align-items: center;*/
