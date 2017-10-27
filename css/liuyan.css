@@ -47,7 +47,7 @@
 	100%{opacity: 1;}
 }
 .center{
-	height: 72rem;
+	padding-bottom: 60px;
 	width: 100%;
 	text-align: center;
 }
@@ -69,7 +69,7 @@
 	margin-top: 40px;
 	padding-bottom: 30px;
 	border-bottom: 1px dashed #999999;
-	text-align: start;
+	text-align: left;
 }
 .left{
 	width: 45%;
