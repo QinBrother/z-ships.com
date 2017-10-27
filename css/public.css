@@ -326,6 +326,7 @@ a{
 		height: 80px;*/
 		width: 134px;
 		height: 85px;
+		top:20px;
 	}
 	.top li:nth-child(2) .drop-down .first{
 	    margin-top: 18px;
@@ -413,7 +414,7 @@ a{
 		margin-top: 13rem;
 	}
 	.top li:nth-child(2) .drop-down{
-		top:30px;
+		top:5px;
 		left:-2px;
 	}
 	.top li:nth-child(2) .drop-down{
@@ -467,7 +468,7 @@ a{
 		margin-top: 1rem;
 	}
 	.top li:nth-child(2) .drop-down{
-		left:-13%;
+		left:-13px;
 	}
 }
 @media screen and (max-width: 700px) {
@@ -511,7 +512,7 @@ a{
 		margin-top: 14rem;
 	}
 	.top li:nth-child(2) .drop-down{
-		left:-20%;
+		left:-19px;
 	}
 } 
 @media screen and (max-width:500px ) {
@@ -578,6 +579,7 @@ a{
 	.top li:nth-child(2) .drop-down {
     width: 83px;
     height: 70px;
+    left: -13px;
     }
     .top li:nth-child(2) .drop-down div {
     padding-left: 6px;
