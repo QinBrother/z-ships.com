@@ -200,7 +200,7 @@
 	width: 50%;
 }
 .rjdz-frist-content-title{
-	text-align: start;
+	text-align: left;
 	font-size: 36px;
 	color: #1A1A1A;
 	margin-top: 40px;
@@ -218,7 +218,7 @@
 	margin-top: 26px;
 	font-size: 29px;
 	margin-left: 154px;
-	text-align: start;
+	text-align: left;
 }
 .rjdz-second{
 	margin-top: 120px;
@@ -233,7 +233,7 @@
 	margin-right: 30px;
 }
 .rjdz-second-content{
-	text-align: start;
+	text-align: left;
 	padding-top: 30px;
 	font-size: 29px;
 	margin-left: 30px;
@@ -271,7 +271,7 @@
 	width: 50%;
 }
 .rjdz-thrid-content-title{
-	text-align: start;
+	text-align: left;
 	font-size: 36px;
 	color: #1A1A1A;
 	margin-top: 30px;
@@ -289,7 +289,7 @@
 	margin-top: 26px;
 	font-size: 29px;
 	margin-left: 154px;
-	text-align: start;
+	text-align: left;
 }
 .chenggonganli{
 	width: 100%;
